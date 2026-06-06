@@ -116,6 +116,12 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+/* Offset anchor targets so sticky nav doesn't cover section headings */
+[id] {
+  scroll-margin-top: 3.5rem;
 }
 
 body {
